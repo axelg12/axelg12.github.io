@@ -1,13 +1,52 @@
 body {
+  margin: 0;
+  padding: 20px;
+  background: #c0c0c0;
+  font-family: 'MS Sans Serif', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
   margin: 0 auto;
-  max-width: 800px;
-  font-family: Helvetica, 'Trebuchet MS', Verdana, sans-serif;
 }
-main,
-.Header {
-  padding-left: 150px;
-  font-size: 14px;
+
+.window {
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
-.Profile__picture {
-  position: absolute;
+
+.window-body {
+  padding: 15px;
+}
+
+.window-body p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.window-body a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.window-body a:hover {
+  color: #ff0000;
+}
+
+.window-body ul,
+.window-body ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.window-body li {
+  margin: 5px 0;
+}
+
+fieldset {
+  margin: 15px 0;
+}
+
+.status-bar {
+  padding: 5px 10px;
 }

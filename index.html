@@ -1,123 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Axel Máni</title>
+    <title>Axel Máni - Resume</title>
     <meta charset="utf-8" />
     <meta name="description" content="Axel Máni personal page" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
 
   <body>
-    <header class="Header">
-      <h1>
-        I am Axel <span style="font-size: 25px">&#128075;</span> and this is my simple resumé page
-      </h1>
-    </header>
-    <aside class="Profile__picture">
-      <img src="./img/axel.jpg" alt="Profile picture of Axel" width="120" height="150" />
-    </aside>
-    <main>
-      <section>
-        I am a Software Engeering, living in Iceland. I love dogs 🐶 I used to live in Denmark for
-        over three years, while studying and working. While there I got to know some amazing people
-        and companies. I worked with
-        <a href="https://rainmaking.io/" target="_blank" rel="noreferrer">Rainmaking innovation</a>
-        in Copenhagen for 6 months. I did my master thesis in co-operation with
-        <a href="https://tv2.dk/" target="_blank" rel="noreferrer">TV2</a>, investigating how to
-        strengthen fault tolerance in a microservice architecture that strived for high
-        availability. Nowadays I am mostly intrested in <strong>frontend infrastructure</strong>,
-        <strong>web accessabilty</strong> and <strong>team management</strong>.
-      </section>
-      <section>
-        <h2>What have I done previously</h2>
-        For the past five years I have worked for a virtual flight interlining company called
-        <a href="https://b2b.dohop.com/" target="_blank" rel="noreferrer">Dohop</a>. I started out
-        as a junior frontend programmer but over the years I've gotten other titles. My main
-        contribution include
-        <ol>
-          <li>Team manager for internal customer support team</li>
-          <li>
-            Tech lead / product manager for
-            <a
-              href="https://www.jetstar.com/sg/en/jetstar-connect/info"
-              target="_blank"
-              rel="noreferrer"
-              >Jetstar Connect</a
-            >
-          </li>
-          <li>
-            JSConf Iceland
-            <a href="https://2016.jsconf.is/" target="_blank" rel="noreferrer">2016</a> &
-            <a href="https://2018.jsconf.is/" target="_blank" rel="noreferrer">2018</a>
-            organizer
-          </li>
-          <li>
-            Design and implementation of an interactive map for
-            <a href="https://kort.skagalif.is" target="_blank" rel="noreferrer">Akranes</a>
-          </li>
-        </ol>
-      </section>
-      <section>
-        <h2>Do you want to know more</h2>
-        <ul>
-          <li>
-            You can read my
-            <a
-              href="https://www.linkedin.com/in/axel-mani-ba714590/"
-              target="_blank"
-              rel="noreferrer"
-              >linkedin profile</a
-            >
-          </li>
-          <li>
-            I once made a more detailed
-            <a href="https://axelg12.github.io/resume/">resume page</a> 🧑‍💻
-          </li>
-          <li>
-            My github profile is
-            <a href="https://github.com/axelg12" target="_blank" rel="noreferrer">public</a>,
-            although I have spent most of my time working on private repositories.
-          </li>
-          <li>
-            You can drop me an email at
-            <a href="mailto:axelmani93@gmail.com">axelmani93@gmail.com</a> 📬
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>I recommened:</h2>
-        <ul>
-          <li>
-            Book:
-            <a href="https://basecamp.com/books/calm" target="_blank" rel="noreferrer"
-              >It Doesn't Have to Be Crazy at Work</a
-            >
-          </li>
-          <li>
-            Book:
-            <a
-              href="https://www.goodreads.com/book/show/67825.Peopleware"
-              target="_blank"
-              rel="noreferrer"
-              >Peopleware: Productive Projects and Teams</a
-            >
-          </li>
-          <li>
-            Article:
-            <a
-              href="https://wavelength.asana.com/workstyle-aors/#close"
-              target="_blank"
-              rel="noreferrer"
-              >Rethinking the org chart: Areas of Responsibility (AoRs)</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      This page should be accessible for everyone. If you notice anything weird, please let me know.
-    </footer>
+    <div class="container">
+      <!-- Main Window: About Me -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">About Axel Máni</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <div style="display: flex; gap: 20px; margin-bottom: 20px">
+            <div>
+              <img
+                src="./img/axel.jpg"
+                alt="Profile picture of Axel"
+                width="120"
+                height="150"
+                style="border: 2px inset"
+              />
+            </div>
+            <div style="flex: 1">
+              <h2 style="margin-top: 0">I am Axel 👋 and this is my page</h2>
+              <p>
+                I am a Software Engineer, living in Iceland. I used to live in Denmark for over
+                three years, while studying and working. While there I got to know some amazing
+                people and companies. I worked with
+                <a href="https://rainmaking.io/" target="_blank" rel="noreferrer"
+                  >Rainmaking innovation</a
+                >
+                in Copenhagen for 6 months. I did my master thesis in co-operation with
+                <a href="https://tv2.dk/" target="_blank" rel="noreferrer">TV2</a>, investigating
+                how to strengthen fault tolerance in a microservice architecture that strived for
+                high availability. Nowadays I am mostly interested in
+                <strong>frontend infrastructure</strong>, <strong>web accessibility</strong> and
+                <strong>team management</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Window: Career Transition -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">Career Transition - Frontend to Backend</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p>
+            I started as a <strong>frontend developer</strong> for the first 5 years of my career.
+            Over the past 5 years, I have transitioned into a
+            <strong>Python backend developer</strong> within the
+            <strong>Airline distribution and Supply team</strong>. During this time, I have taken on
+            various leadership roles and responsibilities:
+          </p>
+          <fieldset>
+            <legend>Leadership Roles</legend>
+            <div class="field-row">
+              <ul style="margin: 0; padding-left: 20px">
+                <li>
+                  <strong>Team Lead</strong> - Leading technical initiatives and guiding team
+                  members
+                </li>
+                <li>
+                  <strong>Delivery Lead</strong> - Ensuring successful project delivery and
+                  coordination
+                </li>
+                <li>
+                  <strong>Team Manager</strong> - Managing people, providing feedback, and
+                  supporting professional growth
+                </li>
+              </ul>
+            </div>
+          </fieldset>
+          <p style="margin-top: 15px">
+            These roles have allowed me to combine my technical expertise in Python backend
+            development with leadership skills, focusing on team development, mentorship, and
+            delivering high-quality solutions in the airline distribution domain.
+          </p>
+        </div>
+      </div>
+
+      <!-- Window: Education -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">Education</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <ul style="margin: 0; padding-left: 20px">
+            <li><strong>Master's Degree</strong> - SDU (University of Southern Denmark), 2018</li>
+            <li><strong>BSc in Computer Science</strong> - Reykjavik University</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Window: Previous Work -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">What have I done previously</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p>
+            For the past five years I have worked for a virtual flight interlining company called
+            <a href="https://b2b.dohop.com/" target="_blank" rel="noreferrer">Dohop</a>. I started
+            out as a junior frontend programmer but over the years I've gotten other titles. My main
+            contributions include:
+          </p>
+          <fieldset>
+            <legend>Key Contributions</legend>
+            <ol style="margin: 10px 0; padding-left: 20px">
+              <li>Team manager for internal customer support team</li>
+              <li>
+                Tech lead / product manager for
+                <a
+                  href="https://www.jetstar.com/sg/en/jetstar-connect/info"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Jetstar Connect</a
+                >
+              </li>
+              <li>
+                JSConf Iceland
+                <a href="https://2016.jsconf.is/" target="_blank" rel="noreferrer">2016</a> &
+                <a href="https://2018.jsconf.is/" target="_blank" rel="noreferrer">2018</a>
+                organizer
+              </li>
+              <li>
+                Design and implementation of an interactive map for
+                <a href="https://kort.skagalif.is" target="_blank" rel="noreferrer">Akranes</a>
+              </li>
+            </ol>
+          </fieldset>
+        </div>
+      </div>
+
+      <!-- Window: Recent Projects (Since 2020) -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">Recent Projects (Since 2020)</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p>
+            In addition to my work at Dohop, I've been involved in several other projects and
+            initiatives:
+          </p>
+          <fieldset>
+            <legend>Projects & Community</legend>
+            <ul style="margin: 10px 0; padding-left: 20px">
+              <li>
+                <strong>Visteyri</strong> - Working on
+                <a href="https://visteyri.is/" target="_blank" rel="noreferrer">Visteyri</a>, an
+                online secondary clothing store that allows users to sell directly to other users.
+              </li>
+              <li>
+                <strong>localhost</strong> - One of the founding members of localhost, a programming
+                community working to restart the programming scene that was present in Iceland
+                during the JS boom.
+              </li>
+              <li>
+                <strong>WordPress Sites</strong> - Developed smaller WordPress sites, including
+                <a href="https://breid.is" target="_blank" rel="noreferrer">breid.is</a>.
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </div>
+
+      <!-- Window: Technologies & Skills -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">Technologies & Skills</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <p>
+            I know and love working with <strong>frontend technologies</strong> like
+            <strong>TypeScript</strong> and <strong>JavaScript</strong>, but I also work with
+            <strong>Python</strong> for backend development.
+          </p>
+          <p style="margin-top: 15px">
+            I'm an <strong>AI believer</strong> in the sense that I think AI can be genuinely
+            helpful and enhance our work. In fact, I used AI assistance to help create the styling
+            for this page!
+          </p>
+        </div>
+      </div>
+
+      <!-- Window: Contact & Links -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">Do you want to know more?</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <ul style="margin: 0; padding-left: 20px">
+            <li>
+              You can read my
+              <a
+                href="https://www.linkedin.com/in/axel-mani-ba714590/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn profile</a
+              >
+            </li>
+            <li>
+              I once made a more detailed
+              <a href="https://axelg12.github.io/resume/">resume page</a> 🧑‍💻
+            </li>
+            <li>
+              My GitHub profile is
+              <a href="https://github.com/axelg12" target="_blank" rel="noreferrer">public</a>,
+              although I have spent most of my time working on private repositories.
+            </li>
+            <li>
+              You can drop me an email at
+              <a href="mailto:selil@gmail.com">selil@gmail.com</a> 📬
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Window: Recommendations -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="title-bar">
+          <div class="title-bar-text">I recommend:</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <ul style="margin: 0; padding-left: 20px">
+            <li>
+              <strong>Book:</strong>
+              <a href="https://basecamp.com/books/calm" target="_blank" rel="noreferrer"
+                >It Doesn't Have to Be Crazy at Work</a
+              >
+            </li>
+            <li>
+              <strong>Book:</strong>
+              <a
+                href="https://www.goodreads.com/book/show/67825.Peopleware"
+                target="_blank"
+                rel="noreferrer"
+                >Peopleware: Productive Projects and Teams</a
+              >
+            </li>
+            <li>
+              <strong>Book:</strong>
+              <a
+                href="https://www.goodreads.com/book/show/52836375-kill-it-with-fire"
+                target="_blank"
+                rel="noreferrer"
+                >Kill It With Fire</a
+              >
+            </li>
+            <li>
+              <strong>Article:</strong>
+              <a
+                href="https://wavelength.asana.com/workstyle-aors/#close"
+                target="_blank"
+                rel="noreferrer"
+                >Rethinking the org chart: Areas of Responsibility (AoRs)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Status Bar -->
+      <div class="window" style="margin: 20px auto; max-width: 800px">
+        <div class="status-bar">
+          <p class="status-bar-field" style="margin: 0">
+            This page should be accessible for everyone. If you notice anything weird, please let me
+            know.
+          </p>
+          <p class="status-bar-field">
+            This page is made with
+            <a href="https://jdan.github.io/98.css/" target="_blank" rel="noreferrer">98.css</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
