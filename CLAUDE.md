@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 ## Project Overview
 
 Personal portfolio website for Axel Mani, hosted on GitHub Pages at `axelg12.github.io`. This is a pure static site — no build system, no frameworks, no server-side logic. All pages are self-contained HTML/CSS with minimal JavaScript.
@@ -54,7 +56,7 @@ The `package.json` has no dependencies and no meaningful scripts. The test scrip
 
 ### Deployment
 
-Push to the default branch and GitHub Pages picks it up. The CNAME file configures custom domain routing.
+Push to the default branch (`master`) and GitHub Pages deploys automatically.
 
 ## CSS Conventions
 

@@ -50,3 +50,9 @@ fieldset {
 .status-bar {
   padding: 5px 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .profile-photo {
+    display: none !important;
+  }
+}
