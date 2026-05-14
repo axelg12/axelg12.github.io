@@ -1,181 +1,250 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>About — Axel Máni</title>
-  <meta name="description" content="A bit about Axel Máni — engineer & delivery manager." />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="constructivist" data-screen-label="02 About">
-  <div class="shell">
+  <head>
+    <meta charset="utf-8" />
+    <title>About — Axel Máni</title>
+    <meta
+      name="description"
+      content="A bit about Axel Máni — software engineer (and delivery manager) at Dohop."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="constructivist" data-screen-label="02 About">
+    <div class="shell">
+      <header class="topnav">
+        <a class="brand" href="index.html"><b>Axel</b> Máni<span class="dot">.</span></a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html" aria-current="page">About</a>
+          <a href="projects.html">Projects</a>
+        </nav>
+      </header>
 
-    <header class="topnav">
-      <a class="brand" href="index.html"><b>Axel</b> Máni<span class="dot">.</span></a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" aria-current="page">About</a>
-        <a href="projects.html">Projects</a>
-      </nav>
-    </header>
-
-    <div class="portrait-block">
-      <div class="portrait reveal">
-        <!-- Drop your photo in this folder as img/jolaaxel.jpg and replace the placeholder with an <img>. -->
-        <div class="placeholder">Portrait · drop a photo here</div>
-        <div class="caption">Reykjavík, ’24</div>
-      </div>
-      <div class="reveal" style="--d:.15s">
-        <div class="eyebrow">About</div>
-        <h2 style="margin-top:14px">
-          I'm Axel. I write code, run projects, and care a lot about the people doing both.
-        </h2>
-      </div>
-    </div>
-
-    <div class="two-col reveal" style="--d:.2s">
-      <aside>The short version</aside>
-      <div>
-        <p style="font-family: var(--serif); font-size: 20px; line-height: 1.5; color: var(--ink-2); max-width: 60ch; margin: 0;">
-          I grew up in Iceland, spent <em>three good years in Denmark</em> studying and working,
-          and came home to keep building things. I started in frontend, drifted into Python and
-          backend, and these days I split my time between <em>writing code</em> and <em>making
-          sure teams can do their best work</em>.
-        </p>
-        <div class="chips" style="margin-top: 28px;">
-          <span class="chip">🇮🇸 Reykjavík</span>
-          <span class="chip">Engineer</span>
-          <span class="chip">Delivery manager</span>
-          <span class="chip">SDU master’s ’18</span>
-          <span class="chip">RU bsc</span>
+      <div class="portrait-block">
+        <div class="portrait reveal">
+          <img
+            src="img/axel.jpg"
+            alt="Portrait of Axel Máni"
+            style="width: 100%; height: 100%; object-fit: cover; display: block"
+          />
+          <div class="caption">Reykjavík, ’24</div>
+        </div>
+        <div class="reveal" style="--d: 0.15s">
+          <div class="eyebrow">About</div>
+          <h2 style="margin-top: 14px">
+            I'm Axel. I write code — and these days, I also help the team that ships it.
+          </h2>
         </div>
       </div>
-    </div>
 
-    <section class="section">
-      <div class="eyebrow reveal">Career</div>
-      <h2 class="reveal" style="--d:.1s">A timeline, more or less.</h2>
-      <div class="timeline reveal" style="--d:.2s; margin-top: 32px;">
+      <div class="two-col reveal" style="--d: 0.2s">
+        <aside>The short version</aside>
+        <div>
+          <p
+            style="
+              font-family: var(--serif);
+              font-size: 20px;
+              line-height: 1.5;
+              color: var(--ink-2);
+              max-width: 60ch;
+              margin: 0;
+            "
+          >
+            I grew up in Iceland, spent <em>three years in Denmark</em> studying and working, and
+            came home to keep building. I started in frontend, moved into Python and backend, and
+            these days I write code alongside <em>leading the team that ships it</em>.
+          </p>
+          <div class="chips" style="margin-top: 28px">
+            <span class="chip">🇮🇸 Reykjavík</span>
+            <span class="chip">Engineer</span>
+            <span class="chip">Delivery manager</span>
+            <span class="chip">MSc · SDU ’18</span>
+            <span class="chip">BSc · Reykjavík U</span>
+          </div>
+        </div>
+      </div>
 
-        <div class="t-row accent">
-          <div class="when">2020 — now</div>
-          <div class="what">
-            <h3>Delivery manager &amp; backend engineer</h3>
-            <div class="where">Dohop · Distribution &amp; Supply</div>
-            <p>Transitioned fully into Python backend. Took on team lead, then delivery manager — coordinating projects, supporting growth, keeping things shipping.</p>
-            <div class="roles">
-              <span>Delivery manager</span>
-              <span>Team lead</span>
-              <span>Tech lead — Jetstar Connect</span>
-              <span>Hoppers (staff association)</span>
+      <section class="section">
+        <div class="eyebrow reveal">Career</div>
+        <h2 class="reveal" style="--d: 0.1s">A timeline, more or less.</h2>
+        <div class="timeline reveal" style="--d: 0.2s; margin-top: 32px">
+          <div class="t-row accent">
+            <div class="when">2020 — now</div>
+            <div class="what">
+              <h3>Backend engineer &amp; delivery manager</h3>
+              <div class="where">Dohop · Distribution &amp; Supply</div>
+              <p>
+                Transitioned fully into Python backend. Took on team lead, then delivery manager —
+                coordinating projects, supporting growth, keeping things shipping.
+              </p>
+              <div class="roles">
+                <span>Delivery manager</span>
+                <span>Team lead</span>
+                <span>Hoppers (staff association)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="when">2015 — 2020</div>
+            <div class="what">
+              <h3>Frontend → backend engineer</h3>
+              <div class="where">Dohop</div>
+              <p>
+                Started as a junior frontend developer and gradually moved across the stack. Five
+                years in, I was firmly in Python land and loving it.
+              </p>
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="when">2017 — 2018</div>
+            <div class="what">
+              <h3>Master's thesis · Fault tolerance in microservices</h3>
+              <div class="where">SDU · in cooperation with TV2</div>
+              <p>
+                Investigated how to strengthen fault tolerance in a microservice architecture aiming
+                for high availability. Set the tone for everything I've cared about since.
+              </p>
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="when">2017</div>
+            <div class="what">
+              <h3>Software engineer</h3>
+              <div class="where">Rainmaking Innovation · Copenhagen</div>
+              <p>
+                Six months building product alongside a startup studio. Learned how fast you can
+                move when constraints are real.
+              </p>
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="when">2015 — 2018</div>
+            <div class="what">
+              <h3>MSc · Software Engineering</h3>
+              <div class="where">University of Southern Denmark (SDU)</div>
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="when">2012 — 2015</div>
+            <div class="what">
+              <h3>BSc · Computer Science</h3>
+              <div class="where">Reykjavik University</div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="t-row">
-          <div class="when">2015 — 2020</div>
-          <div class="what">
-            <h3>Frontend → backend engineer</h3>
-            <div class="where">Dohop</div>
-            <p>Started as a junior frontend developer and gradually moved across the stack. Five years in, I was firmly in Python land and loving it.</p>
+      <section class="section">
+        <div class="eyebrow reveal">On the side</div>
+        <h2 class="reveal" style="--d: 0.1s">Communities, conferences &amp; small things.</h2>
+        <div class="two-col reveal" style="--d: 0.2s; margin-top: 24px">
+          <aside>Outside Dohop</aside>
+          <div>
+            <p>
+              I've helped organise
+              <a href="https://2016.jsconf.is/" target="_blank" rel="noreferrer"
+                >JSConf Iceland 2016</a
+              >
+              and <a href="https://2018.jsconf.is/" target="_blank" rel="noreferrer">2018</a>, and
+              I'm a founding member of <strong>localhost</strong> — a small community trying to
+              bring back the JS-boom-era programming scene in Iceland. Most weekends, I'm tinkering
+              with side projects.
+            </p>
           </div>
         </div>
+      </section>
 
-        <div class="t-row">
-          <div class="when">2017 — 2018</div>
-          <div class="what">
-            <h3>Master's thesis · Fault tolerance in microservices</h3>
-            <div class="where">SDU · in cooperation with TV2</div>
-            <p>Investigated how to strengthen fault tolerance in a microservice architecture aiming for high availability. Set the tone for everything I've cared about since.</p>
+      <section class="section">
+        <div class="eyebrow reveal">If you have a minute</div>
+        <h2 class="reveal" style="--d: 0.1s">A few things worth your time.</h2>
+        <div class="reads reveal" style="--d: 0.2s; margin-top: 24px">
+          <div class="r">
+            <div class="kind">Book</div>
+            <div class="ttl">
+              <a href="https://basecamp.com/books/calm" target="_blank" rel="noreferrer"
+                >It Doesn't Have to Be Crazy at Work</a
+              >
+            </div>
+          </div>
+          <div class="r">
+            <div class="kind">Book</div>
+            <div class="ttl">
+              <a
+                href="https://www.goodreads.com/book/show/67825.Peopleware"
+                target="_blank"
+                rel="noreferrer"
+                >Peopleware</a
+              >
+            </div>
+          </div>
+          <div class="r">
+            <div class="kind">Book</div>
+            <div class="ttl">
+              <a
+                href="https://www.goodreads.com/book/show/52836375-kill-it-with-fire"
+                target="_blank"
+                rel="noreferrer"
+                >Kill It With Fire</a
+              >
+            </div>
+          </div>
+          <div class="r">
+            <div class="kind">Article</div>
+            <div class="ttl">
+              <a
+                href="https://wavelength.asana.com/workstyle-aors/#close"
+                target="_blank"
+                rel="noreferrer"
+                >Rethinking the org chart: AoRs</a
+              >
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="t-row">
-          <div class="when">2017</div>
-          <div class="what">
-            <h3>Software engineer</h3>
-            <div class="where">Rainmaking Innovation · Copenhagen</div>
-            <p>Six months building product alongside a startup studio. Learned how fast you can move when constraints are real.</p>
-          </div>
+      <footer class="foot">
+        <div>© Axel Máni · Reykjavík</div>
+        <div style="display: flex; gap: 18px">
+          <a href="https://www.linkedin.com/in/axel-mani-ba714590/" target="_blank" rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/axelg12" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:selii93@gmail.com">Email</a>
         </div>
+      </footer>
+    </div>
 
-        <div class="t-row">
-          <div class="when">2015 — 2018</div>
-          <div class="what">
-            <h3>MSc · Software Engineering</h3>
-            <div class="where">University of Southern Denmark (SDU)</div>
-          </div>
-        </div>
+    <div id="tweaks-root"></div>
 
-        <div class="t-row">
-          <div class="when">earlier</div>
-          <div class="what">
-            <h3>BSc · Computer Science</h3>
-            <div class="where">Reykjavik University</div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="eyebrow reveal">On the side</div>
-      <h2 class="reveal" style="--d:.1s">Communities, conferences &amp; small things.</h2>
-      <div class="two-col reveal" style="--d:.2s; margin-top: 24px;">
-        <aside>Outside Dohop</aside>
-        <div>
-          <p>I've helped organise <a href="https://2016.jsconf.is/" target="_blank" rel="noreferrer">JSConf Iceland 2016</a> and <a href="https://2018.jsconf.is/" target="_blank" rel="noreferrer">2018</a>, and I'm a founding member of <strong>localhost</strong> — a small community trying to bring back the JS-boom-era programming scene in Iceland. On weekends, I tinker with side projects and drink too much coffee.</p>
-        </div>
-      </div>
-    </section>
-
-    <p class="pullquote reveal">
-      It doesn't have to be crazy at work.
-    </p>
-
-    <section class="section">
-      <div class="eyebrow reveal">If you have a minute</div>
-      <h2 class="reveal" style="--d:.1s">A few things worth your time.</h2>
-      <div class="reads reveal" style="--d:.2s; margin-top: 24px;">
-        <div class="r">
-          <div class="kind">Book</div>
-          <div class="ttl"><a href="https://basecamp.com/books/calm" target="_blank" rel="noreferrer">It Doesn't Have to Be Crazy at Work</a></div>
-        </div>
-        <div class="r">
-          <div class="kind">Book</div>
-          <div class="ttl"><a href="https://www.goodreads.com/book/show/67825.Peopleware" target="_blank" rel="noreferrer">Peopleware</a></div>
-        </div>
-        <div class="r">
-          <div class="kind">Book</div>
-          <div class="ttl"><a href="https://www.goodreads.com/book/show/52836375-kill-it-with-fire" target="_blank" rel="noreferrer">Kill It With Fire</a></div>
-        </div>
-        <div class="r">
-          <div class="kind">Article</div>
-          <div class="ttl"><a href="https://wavelength.asana.com/workstyle-aors/#close" target="_blank" rel="noreferrer">Rethinking the org chart: AoRs</a></div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="foot">
-      <div>© Axel Máni · Reykjavík</div>
-      <div style="display:flex; gap:18px;">
-        <a href="https://www.linkedin.com/in/axel-mani-ba714590/" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="https://github.com/axelg12" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="mailto:selil@gmail.com">Email</a>
-      </div>
-    </footer>
-  </div>
-
-  <div id="tweaks-root"></div>
-
-  <script src="shared.js"></script>
-  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-  <script type="text/babel" src="tweaks-panel.jsx"></script>
-  <script type="text/babel" src="tweaks.jsx"></script>
-</body>
+    <script src="shared.js"></script>
+    <script
+      src="https://unpkg.com/react@18.3.1/umd/react.development.js"
+      integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"
+      integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"
+      integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/babel" src="tweaks-panel.jsx"></script>
+    <script type="text/babel" src="tweaks.jsx"></script>
+  </body>
 </html>
