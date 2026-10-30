@@ -83,6 +83,12 @@ dd {
   margin: 0;
 }
 
+.meta {
+  display: block;
+  color: var(--soft);
+  font-size: 15px;
+}
+
 ul {
   padding-left: 20px;
 }
