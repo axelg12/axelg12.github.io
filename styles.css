@@ -1,19 +1,39 @@
 :root {
-  --bg: #fbfaf7;
-  --ink: #1b1b1b;
-  --soft: #6b6b6b;
-  --line: #e4e1da;
-  --link: #c0392b;
+  color-scheme: light;
+  --bg: light-dark(#fbfaf7, #161616);
+  --ink: light-dark(#1b1b1b, #e8e6e1);
+  --soft: light-dark(#6b6b6b, #9a9a9a);
+  --line: light-dark(#e4e1da, #2e2e2e);
+  --link: light-dark(#c0392b, #ff7a6b);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #161616;
-    --ink: #e8e6e1;
-    --soft: #9a9a9a;
-    --line: #2e2e2e;
-    --link: #ff7a6b;
-  }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+:root[data-theme="dark"] .if-light,
+:root:not([data-theme="dark"]) .if-dark {
+  display: none;
+}
+
+.theme {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  margin: 0;
+  color: var(--soft);
+  font-size: 14px;
+}
+
+.theme button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--link);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
 }
 
 body {
